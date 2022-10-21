@@ -8,10 +8,11 @@ import { Home } from './components/JSX/JSX1';
 import { List } from './components/JSX/JSX2';
 import { Profile } from './components/JSX/JSX3';
 import { Login } from './components/JSX/JSX4';
+import Calculator from './components/State_Lifecycle/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Login />
+  <Calculator />
 );
 
 // If you want to start measuring performance in your app, pass a function
